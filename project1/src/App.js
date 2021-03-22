@@ -17,6 +17,8 @@ import Header from './Header.js';
 //   );
 // }
 
+
+
 class App extends Component {
   state = {  }
   render() { 
@@ -51,13 +53,22 @@ App.defaultProps={
 class Parent extends Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = { 
+      cars: ['BMW' , 'City', 'Civic'] 
+    }
+
+    this.handleClick=this.handleClick.bind(this);
   }
+
+handleClick(){
+  this.setState ({cars: this.state.cars.reverse() })
+}
+
   render() { 
     return ( 
       <div>
-      <h1>Cars Shop</h1>
-      <Cars msg="Cars are cool" model="12345" Coolcars={this.props.cars} />
+      <h1 onClick={this.handleClick}>Cars Shop</h1>
+      <Cars msg="Cars are cool" model="12345" Coolcars={this.state.cars} />
       </div>
      );
   }
@@ -80,7 +91,9 @@ class Cars extends Component {
         <h3>Cool Cars Title: {this.props.msg}</h3>
         <h4>Cool Cars Model: {this.props.model}</h4>
         <h5>Cool Cars Names: {this.props.Coolcars.map((item,i)=> {
-        return " "+item })}</h5>
+        return <p key={i}>{item}</p>
+        
+        })}</h5>
       </div>
 
      );
