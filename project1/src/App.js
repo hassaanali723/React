@@ -37,6 +37,23 @@ class Main extends Component {
 
 
 class Numbers extends Component {
+
+  componentDidMount(){
+    console.log("component did mount")
+
+  }
+
+  componentWillMount(){
+    console.log("component will mount")
+  }
+
+  componentWillReceiveProps(){
+    console.log("component will receive prop")
+
+  }
+
+
+
   constructor(props) {
     super(props);
     this.state = {  }
