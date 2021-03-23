@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "calibri";
+}
+
+
+
+.App{
+   min-height: 100vh;
+   background: #00475b;
+   text-align: center;
+   display: flex;
+   
+}
+
+
+.txt{
+  align-content: center;
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+.quote{
+  
+  width: 100%;
+  margin:auto ;
+  min-height: 80px;
+  background: #072a3b;
+  max-width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px rgba(128, 128, 128, 0.1);
+
+}
+
+p{
+  color: white;
+  font-size: 16px;
+  
+  word-wrap: break-word;
+}
+
+p:last-of-type{
+  margin: 12px 0; 
+}
+
+button{
+ border:none;
+ outline:none;
+ margin-right: 10px;
+}
+
+a{
+  line-height: 15px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.btn{
+ 
+  background: #00475b;
+  color: white;
+  width: 80px;
+  padding: 10px 0;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 700ms ease-in-out;
+
+
+}
+
+
+
+.btn:hover{
+  background: black;
+}
