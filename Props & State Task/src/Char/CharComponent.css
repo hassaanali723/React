@@ -1,0 +1,16 @@
+.char {
+    display:inline-block;
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+    border: 1px solid black;
+}
+
+.main{
+    height: auto;
+    border: 1px solid black;
+}
+
+.main-app{
+    text-align: center;
+}
