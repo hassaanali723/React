@@ -1,0 +1,28 @@
+[
+    {
+       "id": "1",
+       "firstName":"Hassaan Ali",
+       "lastName":"Mehmood",
+       "email": "hassaanali343@gmail.com",
+       "password": "pass132",
+       "collegeId": "col-102"
+    },
+    
+    {
+       "id": "2",
+       "firstName":"Jalees",
+       "lastName":"Mukaram",
+       "email": "jalees346@gmail.com",
+       "password": "pass4576",
+       "collegeId": "col-101"
+    },
+    
+    {
+       "id": "3",
+       "firstName":"Moon",
+       "lastName":"Man",
+       "email": "moon32528@gmail.com",
+       "password": "pass34838",
+       "collegeId": "col-101"
+    }
+ ]

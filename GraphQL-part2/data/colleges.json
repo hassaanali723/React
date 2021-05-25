@@ -1,0 +1,15 @@
+[
+        {
+           "id": "college-100",
+           "name": "NUST",
+           "location": "Islamabad",
+           "rating":5.0
+        },
+        
+        {
+           "id": "college-200",
+           "name": "FAST",
+           "location": "Lahore",
+           "rating":4.0
+        }
+     ]
